@@ -1,0 +1,450 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  font-family: "GeosansLight";
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #000000;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/*My Styles*/
+
+#list a{
+  position: relative;
+  text-decoration: none;
+  color: #000000;
+  font-family: "High Tower Text","GeosansLight", Arial;
+  font-size: 12pt;
+  margin: 0px 12px;
+  padding-right:16px;
+  padding-left:16px;
+}
+
+#list a:hover{
+  color:#ad974f;
+  background-color: none;
+}
+
+#list:hover{
+  color:#ad974f;
+  background-color: none;
+}
+
+td, tr{
+  font-family: "High Tower Text", "GeosansLight", "Arial";
+}
+th{
+  font-family: "High Tower Text", "GeosansLight", "Arial";
+  font-size: 16pt;
+}
+
+
+#indexpage{
+  animation-name: this;
+  animation-duration: 2s;
+}
+
+#sheetpage{
+  display:none;
+  animation-name: this;
+  animation-duration: 2s;
+}
+
+#pianosheetpage{
+  display: none;
+  animation-name: this;
+  animation-duration: 2s;
+}
+
+#pianosheet{
+  display: none;
+  animation-name: this;
+  animation-duration: 2s;  
+}
+
+#violinsheetpage{
+  display: none;
+  animation-name: this;
+  animation-duration: 2s;
+}
+
+#shoppingcart{
+  display: none;
+  animation-name: this;
+  animation-duration: 2s;
+
+}
+
+#violinsheet{
+  display: none;
+  animation-name: this;
+  animation-duration: 2s;
+}
+
+/*UNSURE*/
+
+@media only screen and (max-width:360px){
+  #header{
+    font-size: 30pt;
+    line-height: 4.5;
+  }
+
+#about-text{
+    font-size: 10pt;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  #anchorbutton{
+  background-color: #000000;
+}
+#anchorbutton i:hover{
+  background-color: #000000;
+  transition: 1s;
+}
+}
+@media only screen and (max-width: 520px){
+  #apollo img{
+    height: 85%;
+    width: 85%;
+  }
+
+  #look{
+    margin-top: 50px;
+  }
+
+  #mat-icons{
+    margin-right: 25%;
+    padding-left: 10%;
+  }
+}
+@media only screen and (min-width: 600px){
+#anchorbutton{
+  background-color: #000000;
+}
+#anchorbutton i:hover{
+  background-color: #ad974f;
+  transition: 1s;
+  border-color: #ad974f;
+} 
+}
+
+nav{
+  box-shadow: none;
+}
+
+#navlist1 a, #navlist2 a, #navlist3 a{
+  position: relative;
+  text-decoration: none;
+  color: #000000;
+  font-family: "High Tower Text","GeosansLight", Arial;
+  font-size: 12pt;
+  margin: 0px 12px;
+  padding-right:16px;
+  padding-left:16px;
+}
+#navlist4 a, #navlist5 a, td #action{
+  padding-left: 20px;
+  text-decoration: none;
+  color: #000000;
+
+}
+#navlist1 a:hover, #navlist2 a:hover, #navlist3 a:hover, #navlist4 a:hover, #navlist5 a:hover, td #action:hover{
+  color:#ad974f;
+  background-color: none;
+}
+#navlist1 a:before{
+  content: "";
+  position: absolute;
+  width: 65%;
+  height: 2px;
+  bottom: 0;
+  top: auto;
+  left: auto;
+  margin-bottom: 10px;
+  background-color: #2b2b2b;
+  visibility: visible;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#navlist1 a:hover:before{
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+#navlist2 a:before{
+  content: "";
+  position: absolute;
+  width: 68%;
+  height: 2px;
+  bottom: 0;
+  top: auto;
+  left: auto;
+  margin-bottom: 10px;
+  background-color: #2b2b2b;
+  visibility: visible;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#navlist2 a:hover:before{
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+#apollo{
+  margin-top: 5%;
+}
+#lookbox{
+  position: relative;
+  top: -50px;
+}
+
+#look{
+  border: 2px solid #000000;
+  width: 150px;
+  height: 50px;
+  font-family: "High Tower Text", "GeosansLight", Arial;
+  font-size: 14pt;
+  color: #000000;
+  padding: 10px;
+}
+
+
+a #look:hover{
+  transform: translate(-2px,-5px);
+  box-shadow: 7px 4px 11px -4px rgba(0,0,0,0.75);
+  background-color: #b18d3a;
+  color: #ffffff;
+  transition: 0.5s;
+
+}
+#about-text, #cart-text{
+  font-family: "GeosansLight", Arial;
+  font-size: 18pt;
+  text-align: justify;
+}
+footer{
+  border-top: 1px solid #e1e1e1;
+}
+
+#footertext{
+  color: #000000;
+  font-family: "High Tower Text", "GeosansLight", Arial;
+}
+
+#footertext2{
+  font-family: "GeosansLight", "Arial";
+  font-size:14pt;
+}
+
+#divText{
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+  font-size: 20pt;
+  font-family: "GeosansLight"
+}
+
+#footerimage img{
+  -webkit-filter: opacity(65%);
+  filter: opacity(65%);
+}
+
+#footerimage img:hover{
+  -webkit-filter: opacity(100%);
+  filter: opacity(100%);
+  transition: all ease 0.5s;
+}
+#header{
+  font-family: "High Tower Text", "GeosansLight", Arial;
+  line-height: 2.5;
+}
+#header_index{
+  font-family: "High Tower Text", "GeosansLight", Arial;
+}
+
+.card-content{
+  font-family: "GeosansLight", Arial;
+  font-size: 14pt;
+}
+
+.sheetfont{
+  font-family: "High Tower Text", "GeosansLight", Arial;
+  font-size: 14pt;
+  color: #000000;
+}
+
+.sheetfont a{
+  color:#000000;
+
+}
+
+.sheetfont a:hover{
+  color: #b18d3a;
+  transition: 0.5s;
+}
+
+#footertext2 a{
+  color: #000000;
+}
+
+#footertext2 a:hover{
+  color: #b18d3a;
+}
+
+#app{
+  -webkit-animation-name: example; 
+    -webkit-animation-duration: 4s;
+    animation-name: this;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes this {
+    from {background-color: #ffffff;opacity:0;}
+    to {opacity: 1;}
+}
+
+#cardContent2{
+  display: none;
+}
+
+#lessDetailsButton{
+  display: none;
+}
+
+/* Sheets */
+
+#divHeader{
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+  font-size: 52pt;
+  font-family: "High Tower Text";
+}
+
+
+/*Piano*/
+
+#headerImage{
+  background-image: url("../img/Sheets/Piano/thumbnail/beethoven.jpg");
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+#divHeader2{
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+  font-size: 52pt;
+  font-family: "High Tower Text", "Arial";
+}
+#headerImage2{
+  background-image: url("../img/Sheets/Piano/thumbnail/mozart.jpg");
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+
+#headLine{
+  background-image: url("../img/underline.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-bottom: 60px;
+  white-space: nowrap;
+}
+
+/*Piece*/
+
+#textBox{
+  padding-left: 10%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  font-size: 18pt;
+  left: 20%;
+  border: 1px solid #eaeaea;
+}
+
+
+.btn{
+  text-transform: capitalize;
+  font-family: "High Tower Text", "GeosansLight";
+}
+
+#shop_cart{
+  color: #ffffff;
+}
+
+#price_header{
+  font-family: "GeosansLight";
+}
+
+#price{
+  font-family: "High Tower Text", "TW Cen MT";
+  font-size: 36pt;
+}
+
+#image-preview{
+  position: relative;
+}
+
+#image-preview img{
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+#modalheader{
+  font-family: "High Tower Text";
+  font-size: 26pt;
+  text-align: center;
+}
+
+#modaltext{
+  font-size: 14pt;
+  text-align: center;
+}
+
+/*
+
+this.pianolist[i].artist.includes(txtSearchPianoSong.value)||this.pianolist[i].title.includes(txtSearchPianoSong.value)
+*/
